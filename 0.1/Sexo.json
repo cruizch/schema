@@ -1,0 +1,7 @@
+{
+	"$id": "http://conacyt.mx/datos/modelo/0.1/Sexo.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Sexo",
+	"description": "Sexo de una persona",
+	"enum": ["Hombre", "Mujer"]
+}

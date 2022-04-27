@@ -1,0 +1,9 @@
+{
+	"$id": "https://github.com/cruizch/schema/0.1/ApellidoPersona.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Apellido de una persona",
+	"description": "Apellido de una persona",
+	"type": "string",
+	"minLength": 50,
+	"maxLength": 50
+}
