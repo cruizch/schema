@@ -1,5 +1,5 @@
 {
-	"$id": "https://github.com/cruizch/schema/0.1/NombrePersona.json",
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombrePersona.json",
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Nombre de una persona",
 	"description": "Nombre de una persona",

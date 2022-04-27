@@ -1,5 +1,5 @@
 {
-	"$id": "https://github.com/cruizch/schema/0.1/Persona.json",
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Persona.json",
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Persona",
 	"description": "Persona",
@@ -7,23 +7,23 @@
 	"properties": {
 		"CURP": {
 			"description": "CURP",
-			"$ref": "https://github.com/cruizch/schema/0.1/CURP.json"
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/CURP.json"
 		},
 		"nombre": {
 			"description": "Nombre de la persona",
-			"$ref": "https://github.com/cruizch/schema/0.1/NombrePersona.json"
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombrePersona.json"
 		},
 		"primerApellido": {
 			"description": "Primer apellido de la persona",
-			"$ref": "https://github.com/cruizch/schema/0.1/ApellidoPersona.json"
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ApellidoPersona.json"
 		},
 		"segundoApellido": {
 			"description": "Segundo apellido de la persona",
-			"$ref": "https://github.com/cruizch/schema/0.1/ApellidoPersona.json"
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ApellidoPersona.json"
 		},
 		"sexo": {
 			"description": "Sexo de la persona",
-			"$ref": "https://github.com/cruizch/schema/0.1/Sexo.json"
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Sexo.json"
 		}
 	},
 	"required": ["CURP", "nombre", "primerApellido", "sexo"]
