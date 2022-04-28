@@ -27,7 +27,19 @@
 		"sexo": {
 			"description": "Sexo de la persona",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Sexo.json"
-		}
+		},
+		"nacionalidad": {
+			"description": "Nacionalidad de la persona",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Nacionalidad.json"
+		},
+		"estadoCivil": {
+			"description": "Estado civil de la persona",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/EstadoCivil.json"
+		},
+		"afrodescendiente": {
+			"description": "Si la persona se reconoce o identifica como afrodescendiente",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NoSi.json"
+		}		
 	},
-	"required": ["CURP", "nombre", "primerApellido", "sexo"]
+	"required": ["CURP", "nombre", "primerApellido", "sexo", "nacionalidad"]
 }

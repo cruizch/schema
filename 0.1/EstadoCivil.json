@@ -1,0 +1,7 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/EstadoCivil.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Estado Civil",
+	"description": "Enumeración con los estados civiles reconocidos",
+	"enum": ["Casado", "Divorciado", "Sociedad de convivencia", "Soltero", "Viudo"]
+}
