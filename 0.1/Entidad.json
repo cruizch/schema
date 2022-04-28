@@ -1,0 +1,18 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Entidad.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Entidad",
+	"description": "Entidad",
+	"type": "object",
+	"properties": {
+		"id": {
+			"description": "Identificador de entidad",
+			"type": "integer"
+		},
+		"nombre": {
+			"description": "Nombre de entidad",
+			"type": "string"
+		}
+	},
+	"required": ["id", "nombre"]
+}

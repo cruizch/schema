@@ -4,6 +4,6 @@
 	"title": "Apellido de una persona",
 	"description": "Apellido de una persona",
 	"type": "string",
-	"minLength": 50,
+	"minLength": 1,
 	"maxLength": 50
 }

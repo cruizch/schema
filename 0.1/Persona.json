@@ -4,6 +4,9 @@
 	"title": "Persona",
 	"description": "Persona",
 	"type": "object",
+	"allOf": [
+		{"https://raw.githubusercontent.com/cruizch/schema/main/0.1/Entidad.json"}
+	],
 	"properties": {
 		"CURP": {
 			"description": "CURP",
