@@ -1,0 +1,9 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroExterior.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Número Exterior",
+	"description": "Número exterior de un domicilio",
+	"type": "string",
+	"minLength": 1,
+	"maxLength": 10
+}

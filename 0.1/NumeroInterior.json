@@ -1,0 +1,9 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroInterior.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Número Interior",
+	"description": "Número interior de un domicilio",
+	"type": "string",
+	"minLength": 1,
+	"maxLength": 10
+}
