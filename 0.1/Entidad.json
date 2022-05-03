@@ -7,12 +7,12 @@
 	"properties": {
 		"id": {
 			"description": "Identificador de entidad",
-			"type": "integer"
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Identificador.json"
 		},
-		"nombre": {
+		"nombreEntidad": {
 			"description": "Nombre de entidad",
-			"type": "string"
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombreEntidad.json"
 		}
 	},
-	"required": ["id", "nombre"]
+	"required": ["id", "nombreEntidad"]
 }

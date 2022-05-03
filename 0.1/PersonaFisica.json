@@ -9,7 +9,7 @@
 	],
 	"properties": {
 		"RFC": {
-			"description": "RFC",
+			"description": "RFC de persona",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/RFCPersona.json"
 		}
 	},

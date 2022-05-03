@@ -1,0 +1,9 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ISO-3166-1-2.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "ISO-3166-1-2",
+	"description": "Código ISO-3166-1 de dos caracteres",
+	"type": "string",
+	"minlength": 2,
+	"maxlength": 2
+}

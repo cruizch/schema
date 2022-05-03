@@ -5,14 +5,14 @@
 	"description": "Persona",
 	"type": "object",
 	"allOf": [
-		{"https://raw.githubusercontent.com/cruizch/schema/main/0.1/Entidad.json"}
+		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Entidad.json"}
 	],
 	"properties": {
 		"CURP": {
 			"description": "CURP",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/CURP.json"
 		},
-		"nombre": {
+		"nombrePersona": {
 			"description": "Nombre de la persona",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombrePersona.json"
 		},
@@ -28,9 +28,9 @@
 			"description": "Sexo de la persona",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Sexo.json"
 		},
-		"nacionalidad": {
-			"description": "Nacionalidad de la persona",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Nacionalidad.json"
+		"paisNacimiento": {
+			"description": "País de nacimiento de la persona",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Pais.json"
 		},
 		"estadoCivil": {
 			"description": "Estado civil de la persona",
@@ -41,5 +41,5 @@
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NoSi.json"
 		}		
 	},
-	"required": ["CURP", "nombre", "primerApellido", "sexo", "nacionalidad"]
+	"required": ["CURP", "nombrePersona", "primerApellido", "sexo", "paisNacimiento"]
 }
