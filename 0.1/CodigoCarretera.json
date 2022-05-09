@@ -1,0 +1,8 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/CodigoCarretera.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Código de Carretera",
+	"description": "Código de carretera",
+	"type": "string",
+	"pattern": "^[0-9]+([A-Z]{1})$"
+}

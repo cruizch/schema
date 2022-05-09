@@ -1,7 +1,7 @@
 {
 	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NoSi.json",
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"title": "NoSi",
+	"title": "No o Si",
 	"description": "Enumeración con los valores No o Sí",
 	"enum": ["No", "Sí"]
 }
