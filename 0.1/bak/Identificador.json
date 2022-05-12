@@ -1,8 +1,0 @@
-{
-	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Identificador.json",
-	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"title": "Identificador",
-	"description": "Identificador",
-	"type": "integer",
-	"minimum": 1
-}

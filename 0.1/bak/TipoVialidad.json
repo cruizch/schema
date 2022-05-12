@@ -1,7 +1,0 @@
-{
-	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/TipoVialidad.json",
-	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"title": "Tipo de Vialidad",
-	"description": "Tipo de vialidad",
-	"enum": ["Ampliación", "Andador", "Avenida", "Boulevard", "Calle", "Callejón", "Calzada", "Cerrada", "Circuito", "Circunvalación", "Continuación", "Corredor", "Diagonal", "Eje Vial", "Pasaje", "Peatonal", "Periférico", "Privada", "Prolongación", "Retorno", "Viaducto"]
-}

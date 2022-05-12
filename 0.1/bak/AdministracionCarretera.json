@@ -1,7 +1,0 @@
-{
-	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/AdministracionCarretera.json",
-	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"title": "Administración de Carretera",
-	"description": "Administración de la carretera",
-	"enum": ["Estatal", "Federal", "Municipal", "Particular"]
-}

@@ -1,7 +1,0 @@
-{
-	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/PoderEstado.json",
-	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"title": "Poder Estado",
-	"description": "Poder del Estado",
-	"enum": ["Ejecutivo", "Legislativo", "Judicial"]
-}
