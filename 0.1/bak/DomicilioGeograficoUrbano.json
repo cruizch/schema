@@ -1,0 +1,32 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoUrbano.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Domicilio Geográfico Urbano",
+	"description": "Domicilio geográfico urbano de acuerdo a la Norma Técnica de INEGI",
+	"allOf": [
+		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeografico.json"}
+	],
+	"properties": {
+		"tipoVialidad": {
+			"description": "Tipo de vialidad",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/TipoVialidad.json"
+		},
+		"numeroExterior": {
+			"description": "Número exterior",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroExterior.json"
+		},
+		"numeroExteriorAnterior": {
+			"description": "Número exterior anterior",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroExterior.json"
+		},
+		"numeroInterior": {
+			"description": "Número interior",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroInterior.json"
+		},
+		"codigoPostal": {
+			"description": "Código postal",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/CodigoPostal.json"
+		}
+	},
+	"required": ["tipoVialidad", "numeroExterior", "codigoPostal"]
+}

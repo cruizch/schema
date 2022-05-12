@@ -1,0 +1,20 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/OrganizacionNacional.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Organización Nacional",
+	"description": "Organización nacional",
+	"allOf": [
+		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Organizacion.json"}
+	],	
+	"properties": {
+		"RFC": {
+			"description": "RFC",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/RFCOrganizacion.json"
+		},
+		"domicilio": {
+			"description": "Domicilio",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeografico.json"
+		}
+	},
+	"required": ["RFC", "Domicilio"]
+}

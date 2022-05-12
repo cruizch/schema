@@ -1,0 +1,8 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/CodigoPostal.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Código Postal",
+	"description": "Código postal de un asentamiento",
+	"type": "string",
+	"pattern": "^[0-9]{5}$"
+}

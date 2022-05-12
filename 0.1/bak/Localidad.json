@@ -1,0 +1,25 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Localidad.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Localidad",
+	"description": "Localidad",
+	"properties": {
+		"idLocalidad": {
+			"description": "Identificador de la localidad",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Identificador.json"
+		},
+		"claveLocalidad": {
+			"description": "Clave de la localidad",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ClaveLocalidad.json"
+		},		
+		"nombreLocalidad": {
+			"description": "Nombre de la localidad",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombreLocalidad.json"
+		},
+		"idMunicipio": {
+			"description": "Identificador del municipio",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Identificador.json"
+		}
+	},
+	"required": ["idLocalidad", "claveLocalidad", "nombreLocalidad", "idMunicipio"]
+}

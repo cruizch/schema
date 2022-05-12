@@ -1,0 +1,9 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombrePais.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Nombre de País",
+	"description": "Nombre de país",
+	"type": "string",
+	"minlength": 1,
+	"maxlength": 35
+}
