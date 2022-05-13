@@ -4,21 +4,17 @@
 	"title": "Domicilio Geográfico Rural Carretera",
 	"description": "Domicilio geográfico rural sobre una carretera de acuerdo a la Norma Técnica de INEGI",
 	"allOf": [
-		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeografico.json"}
+		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoRural.json"}
 	],
 	"properties": {
 		"codigoCarretera": {
 			"description": "Código de carretera",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/CodigoCarretera.json"
 		},
-		"cadenamiento": {
-			"description": "Cadenamiento",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Cadenamiento.json"
-		},
 		"tramo": {
 			"description": "Tramo",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Tramo.json"
-		},		
+		},
 		"administracionCarretera": {
 			"description": "Administración de carretera",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/AdministracionCarretera.json"
