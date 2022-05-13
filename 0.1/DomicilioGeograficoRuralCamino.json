@@ -10,7 +10,7 @@
 		"tipoCamino": {
 			"description": "Tipo de camino",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/TipoCamino.json"
-		},,
+		},
 		"cadenamiento": {
 			"description": "Cadenamiento",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Cadenamiento.json"
