@@ -12,5 +12,6 @@
 			"description": "Nombre de vialidad",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombreVialidad.json"
 		}
-	}
+	},
+	"required": ["nombreVialidad"]
 }
