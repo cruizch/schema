@@ -4,6 +4,6 @@
 	"title": "Nombre de Municipio",
 	"description": "Nombre de municipio",
 	"type": "string",
-	"minLength": "1",
-	"maxLength": "50"
+	"minLength": 1,
+	"maxLength": 50
 }

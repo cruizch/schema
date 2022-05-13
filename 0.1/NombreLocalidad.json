@@ -4,6 +4,6 @@
 	"title": "Nombre de Localidad",
 	"description": "Nombre de localidad",
 	"type": "string",
-	"minLength": "1",
-	"maxLength": "50"
+	"minLength": 1,
+	"maxLength": 50
 }

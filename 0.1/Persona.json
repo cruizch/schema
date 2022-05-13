@@ -39,7 +39,15 @@
 		"afrodescendiente": {
 			"description": "Si la persona se reconoce o identifica como afrodescendiente",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NoSi.json"
-		}		
+		},
+		"domicilio": {
+			"description": "Domicilio de la persona",
+			"oneOf": [
+				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoUrbano.json"},
+				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoRuralCamino.json"},
+				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoRuralCarretera.json"}				
+			]
+		}
 	},
-	"required": ["CURP", "nombrePersona", "primerApellido", "sexo", "paisNacimiento"]
+	"required": ["CURP", "nombrePersona", "primerApellido", "sexo", "paisNacimiento", "domicilio"]
 }

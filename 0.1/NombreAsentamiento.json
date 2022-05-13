@@ -4,6 +4,6 @@
 	"title": "Nombre de Asentamiento",
 	"description": "Nombre de asentamiento",
 	"type": "string",
-	"minLength": "1",
-	"maxLength": "50"
+	"minLength": 1,
+	"maxLength": 50
 }

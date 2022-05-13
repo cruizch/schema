@@ -1,9 +1,0 @@
-{
-	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombreAsentamiento.json",
-	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"title": "Nombre de Asentamiento",
-	"description": "Nombre de asentamiento",
-	"type": "string",
-	"minLength": "1",
-	"maxLength": "50"
-}

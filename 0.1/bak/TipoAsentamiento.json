@@ -1,7 +1,0 @@
-{
-	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/TipoAsentamiento.json",
-	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"title": "Tipo de Asentamiento",
-	"description": "Tipo de asentamiento",
-	"enum": ["Aeropuerto", "Ampliación", "Barrio", "Cantón", "Ciudad", "Ciudad Industrial", "Colonia", "Condominio", "Conjunto Habitacional", "Corredor Industrial", "Coto", "Cuartel", "Ejido", "Exhacienda", "Fracción", "Fraccionamiento", "Granja", "Hacienda", "Ingenio", "Manzana", "Paraje", "Parque Industrial", "Privada", "Prolongación", "Pueblo", "Puerto", "Ranchería", "Rancho", "Región", "Residencial", "Rinconada", "Sección", "Sector", "Supermanzana", "Unidad", "Unidad Habitacional", "Villa", "Zona Federal", "Zona Industrial", "Zona Militar", "Zona Naval"]
-}

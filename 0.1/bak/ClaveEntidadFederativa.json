@@ -1,8 +1,0 @@
-{
-	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ClaveEntidadFederativa.json",
-	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"title": "Clave de Entidad Federativa",
-	"description": "Clave de entidad federativa",
-	"type": "string",
-	"pattern": "^[0-9]{2}$"
-}
