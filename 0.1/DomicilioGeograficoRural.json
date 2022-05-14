@@ -8,7 +8,7 @@
 	],	
 	"properties": {
 		"cadenamiento": {
-			"description": "Jurisdicción",
+			"description": "Cadenamiento",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Cadenamiento.json"
 		}
 	},

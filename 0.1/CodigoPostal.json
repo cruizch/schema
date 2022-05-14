@@ -25,5 +25,5 @@
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Localidad.json"
 		}
 	},
-	"required": ["cadenamiento"]
+	"required": ["numeroCodigoPostal", "asentamiento", "entidadFederativa", "municipio", "localidad"]
 }
