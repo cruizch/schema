@@ -1,8 +1,29 @@
 {
 	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/CodigoPostal.json",
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"title": "CÛdigo Postal",
-	"description": "CÛdigo postal de un asentamiento",
-	"type": "string",
-	"pattern": "^[0-9]{5}$"
+	"title": "Codigo Postal",
+	"description": "C√≥digo postal",
+	"properties": {
+		"numeroCodigoPostal": {
+			"description": "N√∫mero de c√≥digo postal",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroCodigoPostal.json"
+		},
+		"asentamiento": {
+			"description": "Asentamiento",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Asentamiento.json"
+		},
+		"entidadFederativa": {
+			"description": "Entidad federativa",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/EntidadFederativa.json"
+		},
+		"municipio": {
+			"description": "Municipio",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Municipio.json"
+		},
+		"localidad": {
+			"description": "Localidad",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Localidad.json"
+		}
+	},
+	"required": ["cadenamiento"]
 }
