@@ -4,5 +4,5 @@
 	"title": "Código de Carretera",
 	"description": "Código de carretera",
 	"type": "string",
-	"pattern": "^[0-9]+([A-Z]{1})$"
+	"pattern": "^[0-9]+([A-Z]{0,1})$"
 }

@@ -11,7 +11,11 @@
 		"nombreVialidad": {
 			"description": "Nombre de vialidad",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombreVialidad.json"
-		}
+		},
+		"codigoPostal": {
+			"description": "Código postal",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/CodigoPostal.json"
+		}		
 	},
-	"required": ["nombreVialidad"]
+	"required": ["nombreVialidad", "codigoPostal"]
 }

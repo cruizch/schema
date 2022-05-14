@@ -22,11 +22,7 @@
 		"numeroInterior": {
 			"description": "Número interior",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroInterior.json"
-		},
-		"codigoPostal": {
-			"description": "Código postal",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/CodigoPostal.json"
 		}
 	},
-	"required": ["tipoVialidad", "numeroExterior", "codigoPostal"]
+	"required": ["tipoVialidad", "numeroExterior"]
 }
