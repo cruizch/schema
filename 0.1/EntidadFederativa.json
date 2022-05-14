@@ -15,7 +15,7 @@
 		"nombreEntidadFederativa": {
 			"description": "Nombre de la entidad federativa",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombreEntidadFederativa.json"
-		},
+		}
 	},
 	"required": ["idEntidadFederativa", "claveEntidadFederativa", "nombreEntidadFederativa"]
 }
