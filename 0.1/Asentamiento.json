@@ -16,6 +16,10 @@
 			"description": "Nombre de la entidad federativa",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombreAsentamiento.json"
 		},
+		"localidad": {
+			"description": "Localidad",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Localidad.json"
+		}
 	},
-	"required": ["idAsentamiento", "tipoAsentamiento", "nombreAsentamiento"]
+	"required": ["idAsentamiento", "tipoAsentamiento", "nombreAsentamiento", "localidad"]
 }

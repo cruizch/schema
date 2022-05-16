@@ -16,10 +16,10 @@
 			"description": "Nombre del municipio",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombreMunicipio.json"
 		},
-		"idEntidadFederativa": {
-			"description": "Identificador de la entidad federativa",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Identificador.json"
+		"entidadFederativa": {
+			"description": "Entidad federativa",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/EntidadFederativa.json"
 		}
 	},
-	"required": ["idMunicipio", "claveMunicipio", "nombreMunicipio", "idEntidadFederativa"]
+	"required": ["idMunicipio", "claveMunicipio", "nombreMunicipio", "entidadFederativa"]
 }

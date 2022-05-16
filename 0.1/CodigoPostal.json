@@ -12,18 +12,6 @@
 			"description": "Asentamiento",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Asentamiento.json"
 		},
-		"entidadFederativa": {
-			"description": "Entidad federativa",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/EntidadFederativa.json"
-		},
-		"municipio": {
-			"description": "Municipio",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Municipio.json"
-		},
-		"localidad": {
-			"description": "Localidad",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Localidad.json"
-		}
 	},
-	"required": ["numeroCodigoPostal", "asentamiento", "entidadFederativa", "municipio", "localidad"]
+	"required": ["numeroCodigoPostal", "asentamiento"]
 }
