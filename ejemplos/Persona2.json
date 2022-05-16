@@ -1,0 +1,38 @@
+{
+  	"id": 2000,
+   	"nombreEntidad": "Carlos Ruiz",
+	"CURP": "FEPM890204HASRRN08",
+	"nombrePersona": "Carlos",
+	"primerApellido": "Ruiz",
+	"sexo": "Hombre",
+	"paisNacimiento": "México",
+    "domicilio": {
+    	"nombreVialidad": "Camino a Matatlán",
+       	"cadenamiento": "5+300",
+       	"tipoCamino": "Camino",
+       	"margen": "Izquierdo",
+       	"codigoPostal": {
+       		"numeroCodigoPostal": "44500",
+           	"asentamiento": {
+				"idAsentamiento": 2000,
+               	"tipoAsentamiento": "Ranchería",
+               	"nombreAsentamiento": "Rancho los Aguacates",
+				"localidad": {
+					"idLocalidad": 1,
+					"claveLocalidad": "0001",
+					"nombreLocalidad": "Tonalá",
+					"municipio": {
+						"idMunicipio": 101,
+						"claveMunicipio": "101",
+						"nombreMunicipio": "Tonalá",
+						"entidadFederativa": {
+							"idEntidadFederativa": 14,
+							"claveEntidadFederativa": "14",
+							"nombreEntidadFederativa": "Jalisco"
+						}
+					}
+				}
+           	}
+       	}
+    }
+}

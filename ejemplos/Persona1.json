@@ -1,0 +1,37 @@
+{
+  	"id": 1000,
+	"nombreEntidad": "Carlos Ruiz",
+	"CURP": "FEPM890204HASRRN08",
+	"nombrePersona": "Carlos",
+	"primerApellido": "Ruiz",
+	"sexo": "Hombre",
+	"paisNacimiento": "México",
+    	"domicilio": {
+      	"nombreVialidad": "López Mateos",
+		"tipoVialidad": "Avenida",
+		"numeroExterior": "5000",
+        "codigoPostal": {
+        	"numeroCodigoPostal": "44500",
+        	"asentamiento": {
+				"idAsentamiento": 1000,
+				"tipoAsentamiento": "Colonia",
+				"nombreAsentamiento": "Jardines de los Arcos",
+				"localidad": {
+					"idLocalidad": 1,
+					"claveLocalidad": "0001",
+					"nombreLocalidad": "Guadalajara",
+					"municipio": {
+						"idMunicipio": 39,
+						"claveMunicipio": "039",
+						"nombreMunicipio": "Guadalajara",
+						"entidadFederativa": {
+							"idEntidadFederativa": 14,
+							"claveEntidadFederativa": "14",
+							"nombreEntidadFederativa": "Jalisco"
+						}
+					}
+				}
+            }
+        }
+    }
+}
