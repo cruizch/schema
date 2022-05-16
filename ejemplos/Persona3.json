@@ -1,5 +1,5 @@
 {
-  	"id": 3000,
+	"id": 3000,
 	"nombreEntidad": "Carlos Ruiz",
 	"CURP": "FEPM890204HASRRN08",
 	"nombrePersona": "Carlos",
@@ -11,30 +11,30 @@
 		"iso-3166-1-3": "MEX"
 	},
 	"domicilio": {
-      	"nombreVialidad": "Carretera a Colima",
-        "cadenamiento": "5+500",
-        "codigoCarretera": "080",
-        "administracionCarretera": "Federal",
-        "derechoTransito": "Libre",
-        "codigoPostal": {
-        	"numeroCodigoPostal": "44500",
+		"nombreVialidad": "Carretera a Colima",
+		"cadenamiento": "5+500",
+		"codigoCarretera": "080",
+		"administracionCarretera": "Federal",
+		"derechoTransito": "Libre",
+		"codigoPostal": {
+			"numeroCodigoPostal": "44500",
 			"asentamiento": {
-            	"idAsentamiento": 3000,
-                "tipoAsentamiento": "Colonia",
-                "nombreAsentamiento": "Villa California",
-            	"localidad": {
-              		"idLocalidad": 1,
-                	"claveLocalidad": "0001",
-                	"nombreLocalidad": "Tlajomulco de Zúñiga",
-            		"municipio": {
-              			"idMunicipio": 97,
-                		"claveMunicipio": "097",
-                		"nombreMunicipio": "Tlajomulco de Zúñiga",
-            			"entidadFederativa": {
-            				"idEntidadFederativa": 14,
-                			"claveEntidadFederativa": "14",
-                			"nombreEntidadFederativa": "Jalisco"
-            			}
+				"idAsentamiento": 3000,
+				"tipoAsentamiento": "Colonia",
+				"nombreAsentamiento": "Villa California",
+				"localidad": {
+					"idLocalidad": 1,
+					"claveLocalidad": "0001",
+					"nombreLocalidad": "Tlajomulco de Zúñiga",
+					"municipio": {
+						"idMunicipio": 97,
+						"claveMunicipio": "097",
+						"nombreMunicipio": "Tlajomulco de Zúñiga",
+						"entidadFederativa": {
+							"idEntidadFederativa": 14,
+							"claveEntidadFederativa": "14",
+							"nombreEntidadFederativa": "Jalisco"
+						}
 					}
 				}
 			}
