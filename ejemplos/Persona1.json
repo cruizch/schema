@@ -1,5 +1,5 @@
 {
-  	"id": 1000,
+	"id": 1000,
 	"nombreEntidad": "Carlos Ruiz",
 	"CURP": "FEPM890204HASRRN08",
 	"nombrePersona": "Carlos",
@@ -10,13 +10,13 @@
 		"iso-3166-1-2": "MX",
 		"iso-3166-1-3": "MEX"
 	},
-    "domicilio": {
-      	"nombreVialidad": "López Mateos",
+	"domicilio": {
+		"nombreVialidad": "López Mateos",
 		"tipoVialidad": "Avenida",
 		"numeroExterior": "5000",
-        "codigoPostal": {
-        	"numeroCodigoPostal": "44500",
-        	"asentamiento": {
+		"codigoPostal": {
+			"numeroCodigoPostal": "44500",
+			"asentamiento": {
 				"idAsentamiento": 1000,
 				"tipoAsentamiento": "Colonia",
 				"nombreAsentamiento": "Jardines de los Arcos",
@@ -35,7 +35,7 @@
 						}
 					}
 				}
-            }
-        }
-    }
+			}
+		}
+	}
 }
