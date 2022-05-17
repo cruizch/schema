@@ -3,6 +3,7 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Codigo Postal",
 	"description": "Código postal",
+	"type": "object",
 	"properties": {
 		"numeroCodigoPostal": {
 			"description": "Número de código postal",

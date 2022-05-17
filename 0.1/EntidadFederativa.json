@@ -3,6 +3,7 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Entidad Federativa",
 	"description": "Entidad federativa",
+	"type": "object",
 	"properties": {
 		"idEntidadFederativa": {
 			"description": "Identificador de la entidad federativa",

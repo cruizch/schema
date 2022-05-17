@@ -3,6 +3,7 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Domicilio Geográfico Rural Camino",
 	"description": "Domicilio geográfico rural sobre un camino de acuerdo a la Norma Técnica de INEGI",
+	"type": "object",
 	"allOf": [
 		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoRural.json"}
 	],

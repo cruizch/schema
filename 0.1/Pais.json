@@ -3,17 +3,20 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "País",
 	"description": "País",
-	"nombrePais": {
-		"description": "Nombre de país",
-		"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombrePais.json"
-	},
-	"iso-3166-1-2" : {
-		"description": "Código ISO-3166-1 de dos caracteres",
-		"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ISO-3166-1-2.json"
-	},
-	"iso-3166-1-3" : {
-		"description": "Código ISO-3166-1 de tres caracteres",
-		"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ISO-3166-1-3.json"
+	"type": "object",
+	"properties": {
+		"nombrePais": {
+			"description": "Nombre de país",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombrePais.json"
+		},
+		"iso-3166-1-2" : {
+			"description": "Código ISO-3166-1 de dos caracteres",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ISO-3166-1-2.json"
+		},
+		"iso-3166-1-3" : {
+			"description": "Código ISO-3166-1 de tres caracteres",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ISO-3166-1-3.json"
+		}
 	},
 	"required": ["nombrePais", "iso-3166-1-2", "iso-3166-1-3"]
 }

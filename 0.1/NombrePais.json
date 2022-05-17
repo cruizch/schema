@@ -4,6 +4,6 @@
 	"title": "Nombre de País",
 	"description": "Nombre de país",
 	"type": "string",
-	"minlength": 1,
-	"maxlength": 35
+	"minLength": 1,
+	"maxLength": 35
 }

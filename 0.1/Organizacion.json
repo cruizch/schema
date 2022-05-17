@@ -3,6 +3,7 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Organización",
 	"description": "Organización",
+	"type": "object",
 	"properties": {
 		"madre": {
 			"description": "Organización madre",
