@@ -5,7 +5,7 @@
 	"description": "Organización",
 	"type": "object",
 	"allOf": [
-		"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Entidad.json"
+		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Entidad.json"}
 	],
 	"properties": {
 		"madre": {
