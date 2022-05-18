@@ -11,10 +11,6 @@
 		"madre": {
 			"description": "Organización madre",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Organizacion.json"
-		}/*,
-		"urlImagen": {
-			"description": "URL de imagen",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombrePoblacion.json"
-		}*/
+		}
 	}
 }
