@@ -1,0 +1,7 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ResponsabilidadContacto.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Responsabilidad  Contacto",
+	"description": "Responsabilidad del contacto",
+	"enum": ["Enlace institucional", "Autoridad suplente", "Autoridad facultada"]
+}

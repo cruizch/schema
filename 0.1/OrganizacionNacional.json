@@ -6,16 +6,20 @@
 	"type": "object",
 	"allOf": [
 		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Organizacion.json"}
-	],	
+	],
 	"properties": {
 		"RFC": {
 			"description": "RFC",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/RFCOrganizacion.json"
 		},
 		"domicilio": {
-			"description": "Domicilio",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeografico.json"
+			"description": "Domicilio de la organización nacional",
+			"oneOf": [
+				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoUrbano.json"},
+				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoRuralCamino.json"},
+				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoRuralCarretera.json"}
+			]
 		}
 	},
-	"required": ["RFC", "Domicilio"]
+	"required": ["RFC", "domicilio"]
 }

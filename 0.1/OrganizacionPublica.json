@@ -6,16 +6,16 @@
 	"type": "object",
 	"allOf": [
 		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/OrganizacionNacional.json"}
-	],	
+	],
 	"properties": {
 		"jurisdiccion": {
 			"description": "Jurisdicción",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Jurisdiccion.json"
-		},
+		}/*,
 		"poderEstado": {
 			"description": "Poder del Estado",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/PoderEstado.json"
-		}
+		}*/
 	},
-	"required": ["jurisdiccion", "poderEstado"]
+	"required": ["jurisdiccion"]
 }
