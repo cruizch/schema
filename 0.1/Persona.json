@@ -8,10 +8,6 @@
 		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Entidad.json"}
 	],
 	"properties": {
-		"CURP": {
-			"description": "CURP",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/CURP.json"
-		},
 		"nombrePersona": {
 			"description": "Nombre de la persona",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombrePersona.json"
@@ -24,30 +20,11 @@
 			"description": "Segundo apellido de la persona",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ApellidoPersona.json"
 		},
-		"sexo": {
-			"description": "Sexo de la persona",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Sexo.json"
-		},
-		"paisNacimiento": {
-			"description": "País de nacimiento de la persona",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Pais.json"
-		},
-		"estadoCivil": {
-			"description": "Estado civil de la persona",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/EstadoCivil.json"
-		},
-		"afrodescendiente": {
-			"description": "Si la persona se reconoce o identifica como afrodescendiente",
-			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NoSi.json"
-		},
-		"domicilio": {
-			"description": "Domicilio de la persona",
-			"oneOf": [
-				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoUrbano.json"},
-				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoRuralCamino.json"},
-				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/DomicilioGeograficoRuralCarretera.json"}
-			]
+		"correo": {
+			"description": "Segundo apellido de la persona",
+			"type": "string",
+			"format": "email"
 		}
 	},
-	"required": ["CURP", "nombrePersona", "primerApellido", "sexo", "paisNacimiento", "domicilio"]
+	"required": ["nombrePersona", "primerApellido", "correo"]
 }
