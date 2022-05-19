@@ -9,7 +9,7 @@
 	],
 	"properties": {
 		"organizacion": {
-			"description": "Organización a la que pertenece el contacto"
+			"description": "Organización a la que pertenece el contacto",
 			"oneOf": [
 				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/OrganizacionExtranjera.json"},
 				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/OrganizacionPublica.json"},
@@ -18,7 +18,7 @@
 			]
 		},
 		"responsabilidadContacto": {
-			"description": "Responsabilidad del contacto"
+			"description": "Responsabilidad del contacto",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ResponsabilidadContacto.json"
 		}
 	},
