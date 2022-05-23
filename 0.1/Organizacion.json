@@ -11,6 +11,10 @@
 		"madre": {
 			"description": "Organización madre",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Organizacion.json"
+		},
+		"numeroTelefono": {
+			"type": "array",
+			"items": {"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroTelefono.json"}
 		}
 	}
 }
