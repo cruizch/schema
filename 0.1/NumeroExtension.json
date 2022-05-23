@@ -1,0 +1,8 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroExtension.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Número Extensión",
+	"description": "Número de extensión telefónica",
+	"type": "string",
+	"pattern": "^[0-9]{4}$"
+}

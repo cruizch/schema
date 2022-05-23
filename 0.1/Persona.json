@@ -24,6 +24,10 @@
 			"description": "Segundo apellido de la persona",
 			"type": "string",
 			"format": "email"
+		},
+		"numeroTelefono": {
+			"description": "Número de teléfono de la persona",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroTelefono.json"
 		}
 	},
 	"required": ["nombrePersona", "primerApellido", "correo"]

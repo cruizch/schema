@@ -11,6 +11,7 @@
 		"pais": {
 			"description": "País",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Pais.json"
+		}
 	},
 	"required": ["pais"]
 }

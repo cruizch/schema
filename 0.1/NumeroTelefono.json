@@ -1,0 +1,18 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroTelefono.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Número Teléfono",
+	"description": "Número teléfono",
+	"type": "object",
+	"properties": {
+		"numeroTelefonico": {
+			"description": "Número telefónico",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroTelefonico.json"
+		},
+		"numeroExtension": {
+			"description": "Número de extensión",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroExtension.json"
+		},
+	},
+	"required": ["numeroTelefonico"]
+}

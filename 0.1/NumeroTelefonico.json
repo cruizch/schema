@@ -1,0 +1,8 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroTelefonico.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Número Telefónico",
+	"description": "Número telefónico de una persona",
+	"type": "string",
+	"pattern": "^[0-9]{10}$"
+}
