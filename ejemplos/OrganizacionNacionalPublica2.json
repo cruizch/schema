@@ -30,5 +30,11 @@
 			}
 		}
 	},
-	"jurisdiccion": "Estatal"
+	"jurisdiccion": "Estatal",
+	"numeroTelefono": [
+		{"numeroTelefonico": "3331342222"}
+	],
+	"actividades": [
+		"Educacion superior", "Investigacion"
+	]
 }

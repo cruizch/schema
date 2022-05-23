@@ -1,0 +1,40 @@
+{
+	"id": 1000,
+	"nombreEntidad": "INSTITUTO TECNOLÓGICO DE ESTUDIOS SUPERIORES DE MONTERREY",
+	"RFC": "ITE430714KI0",
+	"domicilio": {
+		"nombreVialidad": "Eugenio Garzza Sada",
+		"tipoVialidad": "Avenida",
+		"numeroExterior": "2501",
+		"codigoPostal": {
+			"numeroCodigoPostal": "64849",
+			"asentamiento": {
+				"idAsentamiento": 1000,
+				"tipoAsentamiento": "Colonia",
+				"nombreAsentamiento": "Tecnológico",
+				"localidad": {
+					"idLocalidad": 1000,
+					"claveLocalidad": "0001",
+					"nombreLocalidad": "Monterrey",
+					"municipio": {
+						"idMunicipio": 1000,
+						"claveMunicipio": "039",
+						"nombreMunicipio": "Monterrey",
+						"entidadFederativa": {
+							"idEntidadFederativa": 1000,
+							"claveEntidadFederativa": "19",
+							"nombreEntidadFederativa": "Nuevo León"
+						}
+					}
+				}
+			}
+		}
+	},
+	"regimenPrivado": "SA",
+	"numeroTelefono": [
+		{"numeroTelefonico": "8183582000"}
+	],
+	"actividades": [
+		"Educación superior", "Investigación"
+	]
+}

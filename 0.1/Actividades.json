@@ -2,6 +2,6 @@
 	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Actividades.json",
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Actividades",
-	"description": "Enumeraci髇 con actividades de Ciencia y Tecnolog韆",
-	"enum": ["Divulgaci髇", "Educaci髇 media superior", "Educaci髇 superior", "Investigaci髇", "Transferencia tecnol骻ica"]
+	"description": "Enumeraci贸n con actividades de Ciencia y Tecnolog铆a",
+	"enum": ["Divulgaci贸n", "Educaci贸n media superior", "Educaci贸n superior", "Investigaci贸n", "Transferencia tecnol贸gica"]
 }

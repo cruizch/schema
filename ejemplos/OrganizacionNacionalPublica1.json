@@ -30,5 +30,11 @@
 			}
 		}
 	},
-	"jurisdiccion": "Federal"
+	"jurisdiccion": "Federal",
+	"numeroTelefono": [
+		{"numeroTelefonico": "5556220000"}
+	],
+	"actividades": [
+		"Educacion superior", "Investigacion"
+	]
 }
