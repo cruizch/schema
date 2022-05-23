@@ -3,5 +3,5 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Actividades",
 	"description": "Enumeración con actividades de Ciencia y Tecnología",
-	"enum": ["Divulgacion", "Educación media superior", "Educación superior", "Investigación", "Transferencia tecnológica"]
+	"enum": ["Divulgacion", "Educacion media superior", "Educacion superior", "Investigacion", "Transferencia tecnologica"]
 }
