@@ -4,40 +4,6 @@
 	"nombrePersona": "Carlos",
 	"primerApellido": "Ruiz",
 	"correo": "carlos.ruiz@comimsa.com",
-	"organizacion": {
-		"id": 1000,
-		"nombreEntidad": "Universidad de Guadalajara",
-		"RFC": "UGU250907MH5",
-		"domicilio": {
-			"nombreVialidad": "Juárez",
-			"tipoVialidad": "Avenida",
-			"numeroExterior": "976",
-			"codigoPostal": {
-				"numeroCodigoPostal": "44100",
-				"asentamiento": {
-					"idAsentamiento": 1000,
-					"tipoAsentamiento": "Colonia",
-					"nombreAsentamiento": "Americana",
-					"localidad": {
-						"idLocalidad": 1000,
-						"claveLocalidad": "0001",
-						"nombreLocalidad": "Guadalajara",
-						"municipio": {
-							"idMunicipio": 1000,
-							"claveMunicipio": "039",
-							"nombreMunicipio": "Guadalajara",
-							"entidadFederativa": {
-								"idEntidadFederativa": 1000,
-								"claveEntidadFederativa": "14",
-								"nombreEntidadFederativa": "Jalisco"
-							}
-						}
-					}
-				}
-			}
-		},
-		"jurisdiccion": "Estatal"
-	},
 	"numeroTelefono": {
 		"numeroTelefonico": "8444113200"
 	},

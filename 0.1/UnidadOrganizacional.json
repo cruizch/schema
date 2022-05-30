@@ -1,0 +1,33 @@
+{
+	"$id": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/UnidadOrganizacional.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Unidad Organizacional",
+	"description": "Unidad organizacional",
+	"type": "object",
+	"allOf": [
+		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Entidad.json"}
+	],
+	"properties": {
+		"idUnidadOrganizacional": {
+			"description": "Identificador de la unidad organizacional",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Identificador.json"
+		},
+		"nombreUnidadOrganizacional": {
+			"description": "Nombre de la unidad organizacional",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NombreUnidadOrganizacional.json"
+		},
+		"numeroTelefono": {
+			"description": "Número de teléfono de la unidad organizacional",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroTelefono.json"
+		},
+		"contactos": {
+			"description": "Número de teléfono de la unidad organizacional",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/NumeroTelefono.json"
+		},
+		"padre": {
+			"description": "Unidad organizacional padre",
+			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/UnidadOrganizacional.json"
+		}
+	},
+	"required": ["idUnidadOrganizacional", "nombreUnidadOrganizacional"]
+}

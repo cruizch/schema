@@ -8,19 +8,10 @@
 		{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/Persona.json"}
 	],
 	"properties": {
-		"organizacion": {
-			"description": "Organización a la que pertenece el contacto",
-			"oneOf": [
-				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/OrganizacionExtranjera.json"},
-				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/OrganizacionPublica.json"},
-				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/OrganizacionPrivada.json"},
-				{"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/OrganizacionSociedadCivil.json"}
-			]
-		},
 		"responsabilidadContacto": {
 			"description": "Responsabilidad del contacto",
 			"$ref": "https://raw.githubusercontent.com/cruizch/schema/main/0.1/ResponsabilidadContacto.json"
 		}
 	},
-	"required": ["organizacion", "responsabilidadContacto"]
+	"required": ["responsabilidadContacto"]
 }
